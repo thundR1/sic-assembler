@@ -1,0 +1,18 @@
+COPY     START    1000      
+         LDX      ZERO      010409
+LOOP     LDA      ZERO      000409
+         STA      ANS,X     064815
+         STX      TEMP      101027
+         ADD      THREE     0C080F
+         ADD      TEMP      181027
+         STA      TEMP      0C1027
+         LDX      TEMP      041027
+         COMP     LAST      281021
+         JLT      LOOP      381003
+THREE    WORD     3         000003
+LAST     WORD     30        00001E
+ZERO     WORD     0         000000
+TEMP     RESW     1         
+ANS      RESW     10        
+TXT      BYTE     C'EOF'    454F46
+         END      COPY      
