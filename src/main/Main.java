@@ -8,10 +8,10 @@
  *       Assembler and Main Components.
  * 
  * Group: {
- *     - Youssef Elsayed Abdelkader Nasr Amin { 201900314 }
- *     - Ibrahim Elsayed Abdelkader Nasr Amin { 201901434 }
- *     - Mohamed Abdelwahab Elmorsi Ali Ramah { 201900307 }
- *     - Mina Adel Gad Moawad                 { 201901470 }
+ *     - Youssef Elsayed Abdelkader Nasr Amin
+ *     - Ibrahim Elsayed Abdelkader Nasr Amin
+ *     - Mohamed Abdelwahab Elmorsi Ali Ramah
+ *     - Mina Adel Gad Moawad
  * }
 */
 package main;
