@@ -1,0 +1,10 @@
+LDX     04
+LDA     00
+STA     0C
+STX     10
+ADD     18
+ADD     18
+STA     0C
+LDX     04
+COMP    28
+JLT     38

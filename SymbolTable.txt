@@ -1,0 +1,7 @@
+LOOP     1003
+THREE    101E
+LAST     1021
+ZERO     1024
+TEMP     1027
+ANS      102A
+TXT      1048

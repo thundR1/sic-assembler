@@ -1,0 +1,18 @@
+1000    COPY     START    1000
+1000             LDX      ZERO
+1003    LOOP     LDA      ZERO
+1006             STA      ANS,X
+1009             STX      TEMP
+100C             ADD      THREE
+100F             ADD      TEMP
+1012             STA      TEMP
+1015             LDX      TEMP
+1018             COMP     LAST
+101B             JLT      LOOP
+101E    THREE    WORD     3
+1021    LAST     WORD     30
+1024    ZERO     WORD     0
+1027    TEMP     RESW     1
+102A    ANS      RESW     10
+1048    TXT      BYTE     C'EOF'
+104B             END      COPY
